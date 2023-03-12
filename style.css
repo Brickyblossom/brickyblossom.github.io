@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
+
+*{
+    box-sizing: border-box;
+}
+
+.site-title {
+    color: lightpink;
+    font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.site-content {
+    margin-top: 100px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: auto;
+}
+
+.menus {
+    text-align: center;
+}
+
+.menus div{
+    display: inline;
+}
+
+.menu-item{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background: fixed;
+    background-color: white;
+}
